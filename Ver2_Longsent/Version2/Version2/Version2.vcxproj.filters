@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resources\Images">
+      <UniqueIdentifier>{268a053e-b9b6-47f3-94db-062442aeba49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Pacman\Source\ConvertSketch.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Pacman\Source\DrawMap.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Pacman\Source\DrawText.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Pacman\Source\Ghost.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Pacman\Source\GhostManager.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Pacman\Source\Main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Pacman\Source\MapCollision.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Pacman\Source\Pacman.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Pacman\Source\Headers\ConvertSketch.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Pacman\Source\Headers\DrawMap.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Pacman\Source\Headers\DrawText.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Pacman\Source\Headers\Ghost.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Pacman\Source\Headers\GhostManager.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Pacman\Source\Headers\Global.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Pacman\Source\Headers\MapCollision.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Pacman\Source\Headers\Pacman.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Pacman\Source\Resources\Images\Font.png">
+      <Filter>Resources\Images</Filter>
+    </Image>
+    <Image Include="..\..\Pacman\Source\Resources\Images\Ghost16.png">
+      <Filter>Resources\Images</Filter>
+    </Image>
+    <Image Include="..\..\Pacman\Source\Resources\Images\Map16.png">
+      <Filter>Resources\Images</Filter>
+    </Image>
+    <Image Include="..\..\Pacman\Source\Resources\Images\Pacman16.png">
+      <Filter>Resources\Images</Filter>
+    </Image>
+    <Image Include="..\..\Pacman\Source\Resources\Images\PacmanDeath16.png">
+      <Filter>Resources\Images</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

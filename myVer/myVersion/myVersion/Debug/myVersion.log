@@ -1,0 +1,28 @@
+﻿Build started 8/20/2024 11:54:53 PM.
+     1>Project "C:\Users\NGUYEN MANH DUNG\Desktop\PM2012\myVer\myVersion\myVersion\myVersion.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\System\APP\SETUP\VS2012\VC\bin\CL.exe /c /I"C:\Users\NGUYEN MANH DUNG\Desktop\PM2012\SFML-2.4.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\Ver2_Longsent\Pacman\Source\ConvertSketch.cpp ..\..\..\Ver2_Longsent\Pacman\Source\GhostManager.cpp ..\..\..\Ver2_Longsent\Pacman\Source\Main.cpp
+         Main.cpp
+     1>c:\users\nguyen manh dung\desktop\pm2012\ver2_longsent\pacman\source\main.cpp(53): error C2601: 'map' : local function definitions are illegal
+                 c:\users\nguyen manh dung\desktop\pm2012\ver2_longsent\pacman\source\main.cpp(16): this line contains a '{' which has not yet been matched
+     1>c:\users\nguyen manh dung\desktop\pm2012\ver2_longsent\pacman\source\main.cpp(53): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         GhostManager.cpp
+     1>c:\users\nguyen manh dung\desktop\pm2012\ver2_longsent\pacman\source\ghostmanager.cpp(13): error C2059: syntax error : '{'
+     1>c:\users\nguyen manh dung\desktop\pm2012\ver2_longsent\pacman\source\ghostmanager.cpp(13): error C2512: 'std::array<_Ty,_Size>' : no appropriate default constructor available
+                 with
+                 [
+                     _Ty=Ghost,
+                     _Size=4
+                 ]
+     1>c:\users\nguyen manh dung\desktop\pm2012\ver2_longsent\pacman\source\ghostmanager.cpp(13): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\nguyen manh dung\desktop\pm2012\ver2_longsent\pacman\source\ghostmanager.cpp(14): error C2447: '{' : missing function header (old-style formal list?)
+         ConvertSketch.cpp
+     1>c:\users\nguyen manh dung\desktop\pm2012\ver2_longsent\pacman\source\convertsketch.cpp(13): error C2601: 'output_map' : local function definitions are illegal
+                 c:\users\nguyen manh dung\desktop\pm2012\ver2_longsent\pacman\source\convertsketch.cpp(10): this line contains a '{' which has not yet been matched
+     1>c:\users\nguyen manh dung\desktop\pm2012\ver2_longsent\pacman\source\convertsketch.cpp(13): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         Generating Code...
+     1>Done Building Project "C:\Users\NGUYEN MANH DUNG\Desktop\PM2012\myVer\myVersion\myVersion\myVersion.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.53
